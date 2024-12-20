@@ -1,5 +1,7 @@
 > 移植至`vue3-slide-verify`  [仓库](https://github.com/monoplasty/vue3-slide-verify/tree/master)
+
 > 我也不知道到底谁才是第一开发者，github上好多代码基本都是一样的，我这边就按我搬运的仓库来声明
+
 > 演示demo [Demo](https://monoplasty.github.io/vue3-slide-verify/)
 
 **功能基本一样，我只加了一个参数，由服务端来返回图片缺口位置，这样方便服务端来进行验证**
