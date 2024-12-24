@@ -185,19 +185,11 @@
           // 图片坐标位置
           if (props.block.x <= 0 && props.block.y <= 0) {
             blockX.value = getRandomNumberByRange(L + 10, w - (L + 10))
-
             blockY.value = getRandomNumberByRange(10 + r * 2, h - (L + 10))
           } else {
             blockX.value = props.block.x
             blockY.value = props.block.y
           }
-
-          console.log(`h:${h},w:${w}`)
-
-          console.log(`x -> ${L + 10},${w - (L + 10)}`)
-          console.log('x ->' + blockX.value)
-          console.log(`y -> ${10 + r * 2},${h - (L + 10)}`)
-          console.log('y ->' + blockY.value)
 
           if (_canvasCtx && _blockCtx) {
             draw(_canvasCtx, blockX.value, blockY.value, l, r, 'fill')
